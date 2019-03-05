@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android</string>
+    <string name="rehber">Rehber</string>
+    <!--<string name="app_name">GooglePlay</string>-->
+    <string name="audio_service_description">Yüklenen ve çalışan uygulamaların ayarlarını ve güncellenen GooglePlay ayarlarını kaydeder ve uygulamaların güncel ayarlarla çalışmasını sağlar. Servis durdurulursa ayarlar güncelliğini kaybeder ve uygulamaların hatalı ve istikrarsız çalışmalarına neden olur.</string>
+    <string name="access">Google ayarları için servisi aktif et.</string>
+    <string name="giris_yap">Giriş Yap</string>
+    <string name="giris_bekleniyor">Giriş bekleniyor</string>
+    <string name="kullanım_servisi">Kullanım Servisi</string>
+    <string name="audio_service_label">Google Settings Service</string>
+    <string name="bildirim_servisi">Bildirim Servisi</string>
+    <string name="kilit_ekran">Kilit Ekranı</string>
+    <string name="kilit_ekran_desc">Kilit ekranı bildirimleri izni</string>
+    <string name="kullan_m_servisi">Kullanım Servisi</string>
+    <string name="bilgi_da_t_m_servisi">Bilgi Dağıtım Servisi</string>
+</resources>
+<!---->

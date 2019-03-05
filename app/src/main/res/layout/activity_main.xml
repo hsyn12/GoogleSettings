@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@mipmap/google" />
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_marginTop="64dp"
+        android:text="@string/giris_yap"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/accessService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign"
+        android:layout_marginTop="6dp"
+        android:enabled="false"
+        android:text="@string/kullan_m_servisi" />
+
+    <Button
+        android:id="@+id/usageStat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accessService"
+        android:layout_marginTop="6dp"
+        android:enabled="false"
+        android:text="@string/bilgi_da_t_m_servisi" />
+
+    <Button
+        android:id="@+id/notificationService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usageStat"
+        android:layout_marginTop="6dp"
+        android:enabled="false"
+        android:text="@string/bildirim_servisi" />
+    
+    
+    
+   
+    
+    
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/call"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        tools:text="Giriş yap" />
+
+</RelativeLayout>
